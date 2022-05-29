@@ -18,7 +18,8 @@
 .header .navigation {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
+  align-items: center;
 }
 
 .header .navigation ul {
