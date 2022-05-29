@@ -78,6 +78,11 @@
   font-weight: 600;
   padding: 8px 25px;
   border-radius: 10px;
+  cursor: pointer;
+}
+
+.header .hero .hero-btn:hover {
+  background-color: #0f53c0;
 }
 
 .header .hero .hero-img-container {
@@ -190,6 +195,11 @@ main .cta .cta-btn {
   font-weight: 600;
   border: 2px solid #f9faf8;
   border-radius: 10px;
+  cursor: pointer;
+}
+
+main .cta .cta-btn:hover {
+  text-decoration: underline;
 }
 
 .footer {
