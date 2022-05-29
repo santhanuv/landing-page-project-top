@@ -155,3 +155,39 @@ main .testimonial blockquote footer {
   font-style: normal;
   font-size: 28px;
 }
+
+main .cta {
+  padding: 100px 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .cta .box {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 50px 150px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+main .cta .box .head-text {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+main .cta .box p {
+  font-size: 18px;
+}
+
+main .cta .cta-btn {
+  padding: 2px 50px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: 600;
+  border: 2px solid #f9faf8;
+  border-radius: 10px;
+}
