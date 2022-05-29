@@ -90,3 +90,44 @@
   align-items: center;
   flex-shrink: 0;
 }
+
+main .info {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main .info h2 {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+
+main .info .card-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin-bottom: 100px;
+}
+
+main .info .card {
+  max-width: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+main .info .card p {
+  text-align: center;
+  color: #1f2937;
+}
+
+main .info .card .card-img {
+  width: 180px;
+  height: 180px;
+  border: 4px solid #3882f6;
+  border-radius: 15px;
+}
