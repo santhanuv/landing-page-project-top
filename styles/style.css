@@ -30,6 +30,7 @@
 .header .navigation a {
   color: #e5e7eb;
   text-decoration: none;
+  font-size: 18px;
 }
 
 .header .navigation a:hover {
